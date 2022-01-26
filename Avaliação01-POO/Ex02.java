@@ -4,10 +4,10 @@ public class Ex02 {
 
     public static void main(String[] args) {
       try (Scanner entrada = new Scanner(System.in)) {
-        int n = 8; // tamanho dos vetores
-          int a[] = new int[n]; // declarando os vetores de nros inteiros "a" e "b" de tamanho "n"
+        int n = 8;
+          int a[] = new int[n]; 
           int b[] = new int[n];
-          int i; // indice (ou posicao)
+          int i;
 
           for (i=0; i<n; i++) {
             System.out.printf("Informe o %do. elemento de %d: ", (i+1), n);
@@ -19,13 +19,13 @@ public class Ex02 {
           }
 
           System.out.printf("\n\ni- a[i]   b[i] = a[i] * 2\n");
-          System.out.printf("=========================\n");
+          System.out.printf("***************************\n");
           for (i=0; i<n; i++) {
             System.out.printf("%d- %4d   %4d\n", i, a[i], b[i]);
           }
     }
       
-      System.out.printf("=========================\n");
+      System.out.printf("***************************\n");
     }
 
 }

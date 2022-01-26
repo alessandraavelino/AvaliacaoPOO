@@ -1,0 +1,7 @@
+Para utilizar a urna, deve-se primeiro inserir os candidatos, com seus respectivos partidos,
+da mesma forma, cadastrar a opção de voto nulo.
+
+1 passo: Cadastrar as opções (candidatos, votos nulo);
+2 passo: Realizar a votação;
+3 passo: Ver o resultado (para isso, informe o néro do partido [0, para verificar os votos nulos]);
+4 passo: Encerrar programa.
