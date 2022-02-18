@@ -3,8 +3,9 @@ public abstract class Cliente implements Pagamento{
     private double valorCompra;
 
     public Cliente(String nome, double valorCompra){
-      this.nome = nome;
       this.valorCompra = valorCompra;
+      this.nome = nome;
+      
 
     }
   
@@ -12,6 +13,7 @@ public abstract class Cliente implements Pagamento{
       return valorCompra;
     }
 
+   
 
 
 

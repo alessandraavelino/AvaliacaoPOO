@@ -19,5 +19,9 @@ public class ClienteOuroVip extends ClienteVip{
     return getValorCompra() - (getValorCompra() * 0.15);
   }
 
+  public static char[] getNome() {
+    return null;
+  }
+
     
 }

@@ -7,4 +7,8 @@ public class ClienteRegular extends Cliente{
     public double calcularPagamento(){
       return getValorCompra();
     }
+
+    public static char[] getNome() {
+      return null;
+    }
   }

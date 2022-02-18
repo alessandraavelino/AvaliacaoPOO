@@ -15,7 +15,7 @@ public class Mercadinho{
     }
   }
   public void imprimirClientes(){
-    for (Pagamento cliente : clientes){
+    for (Pagamento cliente : clientes) {
       System.out.println(cliente);
     }
   }
@@ -28,8 +28,7 @@ public class Mercadinho{
     return total;
   }
 
-    public void adicionarCliente(Pagamento clienteVip) {
-    }
+    
 }
 
   
