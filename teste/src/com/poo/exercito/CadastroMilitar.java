@@ -19,7 +19,7 @@ public class CadastroMilitar {
     public void imprimirPodeProgredir(){
         for (Carreira militar : militares){
             if(militar.podeProgredir() == true){
-                System.out.println(militar);
+                System.out.println(militar); //POLIMORFISMO
 
             }
 
